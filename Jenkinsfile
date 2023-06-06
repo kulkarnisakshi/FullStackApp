@@ -98,7 +98,7 @@ pipeline
         }
 
 
-        /**stage(' Docker Image push to Docker Hub')
+        stage(' Docker Image push to Docker Hub')
         {
             steps
             {
