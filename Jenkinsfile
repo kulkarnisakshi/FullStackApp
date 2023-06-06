@@ -46,7 +46,8 @@ pipeline
 
         stage('Sonarqube scanning')
 	{
-        		echo 'sonarqube'
+		steps{
+			echo 'sonarqube'}
         }
 
         stage('Code Package')
