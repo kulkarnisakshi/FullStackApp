@@ -44,7 +44,7 @@ pipeline
         }
 
 
-       /** stage('Sonarqube scanning')
+        stage('Sonarqube scanning')
 	    	{
         		environment
         		{
@@ -62,7 +62,7 @@ pipeline
                             waitForQualityGate abortPipeline: true
                         }
         			}
-        }**/
+        }
 
         stage('Code Package')
         {
